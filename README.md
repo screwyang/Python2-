@@ -65,11 +65,11 @@ Python的标准比较运算符：<、<=、 > 、>=、 ==、 != 、<>
 
 
 
-——————————————————————处于编码问题的是最低级的——————————————————
+
 unicode转中文
 1 >>> s = u'\u4eba\u751f\u82e6\u77ed\uff0cpy\u662f\u5cb8'
 2 >>> print s
-3 人生苦短，py是岸不想干了
+3 人生苦短，py是岸
 
 1 >>> s = r'\u4eba\u751f\u82e6\u77ed\uff0cpy\u662f\u5cb8'
 2 >>> s = s.decode('unicode_escape')
@@ -107,8 +107,6 @@ nginx 分布式：
 （其他服务器是访问这台redis，）
 
 
-who care ,什么语言不是一样的，都可以走上大道
-
 
 python中有一个zfill方法用来给字符串前面补0，非常有用n = "123" s = n.zfill(5)
 
@@ -126,7 +124,6 @@ SQLserver查询下级部门的sql :https://www.cnblogs.com/adandelion/archive/20
 
 后端获取数据
 前端拼接数据，前端把数据传到后台
-
 
 
 Django的内建标签
